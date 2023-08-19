@@ -1,11 +1,7 @@
 .dropdown {
     display: inline-block;
 }
-.alignment{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 .erase-margin {
     margin-bottom: 0px;
     margin-left: 5px;

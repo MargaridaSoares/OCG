@@ -25,3 +25,10 @@
     font-size: medium;
     color: var(--font-normal);
 }
+
+.alignment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 24px;
+}

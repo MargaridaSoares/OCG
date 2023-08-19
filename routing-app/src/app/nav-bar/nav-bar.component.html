@@ -5,10 +5,11 @@
 
         <app-nav-bar-drop-down [titleLabel]="titleLabel" [optionsList]="optionsList"></app-nav-bar-drop-down>
     
-        <!--<app-nav-bar-button (item)="'Support'" (pageToGo)="'/support'"></app-nav-bar-button>
-        <app-nav-bar-button (item)="'SUBMISSIONS'" (pageToGo)="'/submissions'"></app-nav-bar-button>
+        <app-nav-bar-button [label]="'About Us'" [pageToGo]="'/aboutUs'"></app-nav-bar-button>
+        <app-nav-bar-button [label]="'Support'" [pageToGo]="'/support'"></app-nav-bar-button>
+        <app-nav-bar-button [label]="'SUBMISSIONS'" [pageToGo]="'/submissions'"></app-nav-bar-button>
 
-        <div class="background">
+        <!--<div class="background">
             <form >
                 <input class="layout-changes-input" type="text" placeholder="Search Cards..">
                 <h4><i class="bi bi-search icon-color"></i></h4>
