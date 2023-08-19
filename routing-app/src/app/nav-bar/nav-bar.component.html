@@ -3,7 +3,7 @@
             <img src="../assets/images/logo.png" routerLink="/home-page" alt="Logo Company" width="142" height="62">    
         </div>
 
-        <app-nav-bar-drop-down></app-nav-bar-drop-down>
+        <app-nav-bar-drop-down [titleLabel]="titleLabel" [optionsList]="optionsList"></app-nav-bar-drop-down>
     
         <!--<app-nav-bar-button (item)="'Support'" (pageToGo)="'/support'"></app-nav-bar-button>
         <app-nav-bar-button (item)="'SUBMISSIONS'" (pageToGo)="'/submissions'"></app-nav-bar-button>

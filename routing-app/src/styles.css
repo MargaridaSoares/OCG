@@ -15,3 +15,13 @@
 .icon-color{
     color: var(--font-normal);
 }
+
+.layout-changes {
+    background: transparent;
+    border-color: transparent;
+    margin: 24px 0px 24px 24px;
+    letter-spacing: .1rem;
+    font-family: Montserrat;
+    font-size: medium;
+    color: var(--font-normal);
+}
