@@ -1,12 +1,19 @@
+.icon-search-form {
+    margin-right: -65px;
+    z-index: 10000;
+}
+
 .layout-changes-input {
-    min-width: 325px;
-    padding-left: 15px;
+    background-color: transparent;
+    border-color: var(--font-normal) !important;
+    border-radius: 5px;
+    min-width: 380px;
+    padding-left: 40px;
     padding-top: 2px;
     padding-bottom: 2px;
-    border-radius: 5px;
     margin: 24px 0px 24px 24px;
     letter-spacing: .1rem;
     font-family: inherit ;
     font-size: medium;
-    color: var(--dark-background);
+    color: var(--font-normal);
 }
