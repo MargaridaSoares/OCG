@@ -1,0 +1,13 @@
+.layout-changes {
+    background: transparent;
+    border-color: transparent;
+    margin: 24px;
+    letter-spacing: .1rem;
+    font-family: Montserrat;
+    font-size: medium;
+    color: var(--font-normal);
+}
+
+button:hover{
+    color: var(--font-highlight);
+}

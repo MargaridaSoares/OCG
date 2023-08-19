@@ -1,0 +1,17 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --dark-background: #202124;
+    --font-normal: #e8eaed;
+    --font-highlight: #E31C25;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-color{
+    color: var(--font-normal);
+}

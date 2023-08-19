@@ -1,0 +1,45 @@
+.background-navbar{
+    background-color: var(--dark-background);
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.logo-image{
+    vertical-align: middle;
+}
+
+.layout-changes {
+    background: transparent;
+    border-color: transparent;
+    margin: 24px;
+    letter-spacing: .1rem;
+    font-family: Montserrat;
+    font-size: medium;
+    color: var(--font-normal);
+}
+
+
+.layout-changes-input {
+    background: transparent;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-color: var(--font-normal);
+    border-radius: 10px;
+    margin: 24px;
+    letter-spacing: .1rem;
+    font-family: Montserrat;
+    font-size: medium;
+    color: var(--font-normal);
+}
+
+.background{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+
+.icon-color{
+    color: var(--font-normal);
+}
