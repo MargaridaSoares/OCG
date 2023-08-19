@@ -20,25 +20,6 @@
 }
 
 
-.layout-changes-input {
-    background: transparent;
-    padding-left: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-color: var(--font-normal);
-    border-radius: 10px;
-    margin: 24px 0px 24px 24px;
-    letter-spacing: .1rem;
-    font-family: inherit ;
-    font-size: medium;
-    color: var(--font-normal);
-}
-
-.form-align {
-    display: flex;
-    flex-flow: row;
-}
-
 .background-right{
     width: 100%;
     display: flex;
