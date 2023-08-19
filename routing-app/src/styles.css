@@ -12,12 +12,22 @@
     padding: 0;
 }
 
-.icon-color{
+.icon{
     color: var(--font-normal);
+    margin: 10px;
+}
+
+.icon:hover{
+    color: var(--font-highlight);
+}
+
+.erase-margin {
+    margin-bottom: 0px;
 }
 
 .layout-changes {
     background: transparent;
+    font-family: inherit !important;
     border-color: transparent;
     margin: 24px 0px 24px 24px;
     letter-spacing: .1rem;

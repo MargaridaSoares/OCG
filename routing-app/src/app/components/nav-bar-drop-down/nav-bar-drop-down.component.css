@@ -2,12 +2,8 @@
     display: inline-block;
 }
 
-.erase-margin {
-    margin-bottom: 0px;
-    margin-left: 5px;
-}
 .dropdown-content {
-    margin-top: -10px;
+    margin-top: -40px;
     border-radius: 10px;
     display: none;
     position: absolute;

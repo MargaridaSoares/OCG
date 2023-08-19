@@ -1,9 +1,10 @@
 .layout-changes {
+    min-width: 90px;
     background: transparent;
     border-color: transparent;
     margin: 24px;
     letter-spacing: .1rem;
-    font-family: Montserrat;
+    font-family: inherit;
     font-size: medium;
     color: var(--font-normal);
 }
