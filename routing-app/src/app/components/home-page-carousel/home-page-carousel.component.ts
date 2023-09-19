@@ -10,8 +10,21 @@ interface carouselImage{
   styleUrls: ['./home-page-carousel.component.css']
 })
 export class HomePageCarouselComponent implements OnInit{
-  
-@Input() images: carouselImage[] = [];
+  slideConfig = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    //autoplay: true,
+    dots: true,
+    responsive : [{
+      settings: {
+        arrows: true
+      }
+    }]
+      
+    
+  }
+  @Input() images: carouselImage[] = [];
+
 
 selectedIndex = 0;
 

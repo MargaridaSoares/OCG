@@ -9,6 +9,7 @@ import { NavBarButtonComponent } from './components/nav-bar-button/nav-bar-butto
 import { NavBarDropDownComponent } from './components/nav-bar-drop-down/nav-bar-drop-down.component';
 import { NavBarSearchFormComponent } from './components/nav-bar-search-form/nav-bar-search-form.component';
 import { HomePageCarouselComponent } from './components/home-page-carousel/home-page-carousel.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomePageCarouselComponent } from './components/home-page-carousel/home-
   ],
   imports: [
     BrowserModule,
+    SlickCarouselModule,
     RouterModule.forRoot([
       {path: 'home-page', component: HomePageComponent},
       {path: '', redirectTo: '/home-page', pathMatch: 'full'},
