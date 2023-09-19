@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { NavBarButtonComponent } from './components/nav-bar-button/nav-bar-button.component';
 import { NavBarDropDownComponent } from './components/nav-bar-drop-down/nav-bar-drop-down.component';
 import { NavBarSearchFormComponent } from './components/nav-bar-search-form/nav-bar-search-form.component';
+import { HomePageCarouselComponent } from './components/home-page-carousel/home-page-carousel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavBarSearchFormComponent } from './components/nav-bar-search-form/nav-
     NavBarComponent,
     NavBarButtonComponent,
     NavBarDropDownComponent,
-    NavBarSearchFormComponent
+    NavBarSearchFormComponent,
+    HomePageCarouselComponent
   ],
   imports: [
     BrowserModule,

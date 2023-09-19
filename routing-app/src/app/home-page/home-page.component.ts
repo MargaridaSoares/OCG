@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent {
 
+  title = 'carousel';
+  images = [
+    {
+      imageSrc: '../../assets/images/logo.png',
+      imageAlt: 'First Image'
+    },
+    {
+      imageSrc: '../../assets/images/secondImageCarousel.jpg',
+      ImageAlt: 'Second Image'
+    }
+];
 }
